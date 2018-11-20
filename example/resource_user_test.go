@@ -15,7 +15,7 @@ func TestUser(t *testing.T) {
 			r.TestStep{
 				Config: fmt.Sprintf(`
             provider "example" {
-              seed = 12345
+              seed = 123456
             }
 			resource "user" "user1" {
 				provider = "example"
